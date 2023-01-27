@@ -1,0 +1,97 @@
+*{
+    background: linear-gradient(90deg, #2CD9FF, #7EFFB2);
+    background-size: 400% 400%;
+    animation: anim 2.5s infinite ease-in-out;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+@keyframes anim {
+    0%{
+      background-position: 0 50%;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0 50%;
+    }
+  }
+.logo{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 3%;
+}
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+.text-area{
+    height: 250px;
+    width: 700px;
+    border: none;
+    color: black;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+::placeholder{
+    color: black;
+}
+.text-area:focus{
+    outline: none;
+}
+.msg{
+    height: 385px;
+    background:white;
+    border: none;
+    border-radius: 24px;
+    color: black;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: absolute;
+}
+.msg:focus{
+    outline: none;
+}
+.boton{
+    display: flex;
+    margin-top: 18px;
+}
+.btn-desencriptar{
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color:#0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+.btn-encriptar{
+    background: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+.copy{
+    background: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 425px;
+    position: absolute;
+    width: 356px;
+}
+.info{
+    color: black;
+    font-size: 18px;
+}
